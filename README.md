@@ -17,3 +17,7 @@ Install via [Vagrant](https://www.vagrantup.com)
     $ ./node down [NODE_ID:mandatory]
     $ ./node rename [NODE_ID:mandatory] [NEW_NODE_TITLE:mandatory]
     ```
+4. Tests:
+    ```bash
+    $ cd /var/www/category && codecept run 
+    ```
