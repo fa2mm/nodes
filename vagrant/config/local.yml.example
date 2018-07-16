@@ -1,0 +1,31 @@
+# Are we need check box updates for every 'vagrant up'?
+box_check_update: false
+
+# Virtual machine name
+machine_name: category
+
+# Virtual machine IP
+ip: 192.168.33.66
+
+# Virtual machine CPU cores number
+cpus: 1
+
+# Virtual machine RAM
+memory: 1024
+
+# GUI enable/disable
+gui: false
+
+# Path to application
+app_path: /var/www/category/
+
+# Dev DB
+db_dev_name: category_db
+db_dev_root_pass: sgkJgar4H8Ejf
+db_dev_user: category_us
+db_dev_pass: hYdk6oHrkf3kF
+
+# Test DB
+db_test_name: category_test_db
+db_test_user: category_test_us
+db_test_pass: JfkUtrjFhsj

@@ -1,0 +1,16 @@
+<?php
+/**
+ * @author Olexander Mokhonko <2day@ua.fm>
+ * Date: 2018-07-11
+ */
+
+$config = [
+ 'db' => [
+     'driver'   => 'mysql',
+     'port'     => 3306,
+     'host'     => '127.0.0.1',
+     'db'       => 'category_db',
+     'user'     => 'category_us',
+     'pass'     => 'hYdk6oHrkf3kF'
+ ]
+];

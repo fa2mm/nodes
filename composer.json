@@ -1,0 +1,21 @@
+{
+    "name": "test/category",
+    "type": "script",
+    "description": "",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Olexander Mokhonko",
+            "email": "2day@ua.fm"
+        }
+    ],
+    "require": {
+        "tecsvit/object-helper": "@dev",
+        "tecsvit/logger": "@dev"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "@dev",
+        "codeception/codeception": "2.4.x-dev",
+        "codeception/verify": "dev-master"
+    }
+}

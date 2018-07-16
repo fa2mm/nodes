@@ -1,0 +1,12 @@
+#!/usr/bin/php
+<?php
+
+use \app\models\NodeAdapter;
+
+DEFINE('BASE_PATH', dirname(dirname(__DIR__)));
+
+require_once BASE_PATH . '/app/config/_test.php';
+require_once BASE_PATH . '/app/core/autoload.php';
+
+$app = new NodeAdapter($config);
+$app->run($argv);
